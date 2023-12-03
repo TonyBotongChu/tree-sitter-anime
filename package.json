@@ -1,0 +1,16 @@
+{
+  "name": "tree-sitter-anime",
+  "version": "0.0.0",
+  "description": "Dummy Tree sitter grammar",
+  "main": "bindings/node",
+  "repository": null,
+  "license": "MIT",
+  "devDependencies": {
+    "tree-sitter": "^0.20.6",
+    "tree-sitter-cli": "^0.20.8",
+    "node-gyp": "^10.0.1"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tree-sitter generate && ./node_modules/.bin/node-gyp build"
+  }
+}
